@@ -1,0 +1,32 @@
+mkdir dir1 dir2 dir3
+
+ls -1
+
+cd dir1
+
+touch file1.py fiel2.py file3.py
+
+mv file1.py fiel1_changed.py
+
+mv file1.py dir2
+
+cd dir2 
+
+ls -1
+
+rm fiel1_changed.py
+
+rm -r dir2
+
+ls
+
+#edit file
+apt update
+apt install nano
+nano file1.py #PRESS Q TO EXIT
+
+#view file
+apt update 
+apt install less
+less file2.py
+I love my girlfriend Hanna!!!
